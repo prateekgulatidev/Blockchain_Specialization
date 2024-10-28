@@ -2,7 +2,7 @@
 
 **Master Blockchain and Break into Blockchain**
 
-Instructor: [Bina Ramamurthy](https://www.coursera.org/instructor/~5767003)
+Instructor: Prateek Gulati
 
 ## 1. Introduction
 
