@@ -1,8 +1,16 @@
 ## Welcome to week 1 
 
 ___ 
+#### 1. Distributed Systems
++ ***Distributed systems:***
+    + Distributed systems are a computing paradigm whereby two or more nodes work with each other in a coordinated fashion to achieve a common outcome. It is modeled in such a way that end users see it as a single logical platform. For example, Google's search engine is based on a large distributed system, but to a user, it looks like a single, coherent platform.
+    + A ***node*** can be defined as an individual player in a distributed system. All nodes are capable of sending and receiving messages to and from each other. Nodes can be honest, faulty, or malicious, and they have memory and a processor. A node that exhibits irrational behavior is also known as a Byzantine node after the Byzantine Generals Problem.
+    + ***Distributed systems*** are so challenging to design that a hypothesis known as the ***CAP theorem*** has been proven, which states that a distributed system cannot have all three of the much-desired properties simultaneously; that is, consistency, availability, and partition tolerance.
+ | ![](./Images/Core-components-of-blockchain.png)|
+|:--:| 
+| *Fig 1. A dritributed system with byzantine node* |
 
-#### 1. Bitcoin and Blockchain
+#### 2. Bitcoin and Blockchain
 
 \- **Definition of Blockchain:** peer to peer transaction in a decentralized network. These below characteristics help Blockchain ensure **Trust** and **Security**: 
 
@@ -115,4 +123,4 @@ ___
 
 + ***Sidechains:***
 
-    + Running parallel to the main chain. 
+    + Running parallel to the main chain.
