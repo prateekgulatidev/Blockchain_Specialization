@@ -133,6 +133,20 @@ ___
 
  
 #### 5. Consensus Mechanisms
++ ***Consensus*** is the backbone of a blockchain and, as a result, it provides decentralization of control through an optional process known as mining. The choice of the consensus algorithm is also governed by the type of blockchain in use; that is, not all consensus mechanisms are suitable for all types of blockchains. For example, in public permissionless blockchains, it would make sense to use PoW instead of a simple agreement mechanism that is perhaps based on proof of authority. Therefore, it is essential to choose an appropriate consensus algorithm for a particular blockchain project.
++ A ***consensus mechanism*** is a set of steps that are taken by most or all nodes in a blockchain to agree on a proposed state or value.
+There are various requirements that must be met to provide the desired results in a consensus mechanism. The following describes these requirements:
++ ***Agreement***: All honest nodes decide on the same value
++ ***Termination***: All honest nodes terminate execution of the consensus process and
+eventually reach a decision
++ ***Validity***: The value agreed upon by all honest nodes must be the same as the initial value proposed by at least one honest node
++ ***Fault tolerant***: The consensus algorithm should be able to run in the presence of faulty or malicious nodes (Byzantine nodes)
++ ***Integrity***: This is a requirement that no node can make the decision more than once in a single consensus cycle
+
+***Types of consensus mechanisms***
++ ***Traditional Byzantine Fault Tolerance (BFT)-based:*** With no compute-intensive operations, such as partial hash inversion (as in Bitcoin PoW), this method relies on a simple scheme of nodes that are publisher-signed messages. Eventually, when a certain number of messages are received, then an agreement is reached.
++ ***Leader election-based consensus mechanisms:*** This arrangement requires nodes to compete in a leader-election lottery, and the node that wins proposes a final value. For example, the PoW used in Bitcoin falls into this category.
+
  
 ***Proof of Work (PoW)*** and ***Proof of Stake (PoS)*** are two widely used consensus mechanisms in blockchain technology. Each has a unique approach to validating transactions and securing the network.
 
