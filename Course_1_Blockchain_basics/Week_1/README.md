@@ -127,6 +127,10 @@ ___
 + ***Sidechains:***
 
     + Running parallel to the main chain.
+    + More precisely known as ***pegged sidechains***, this is a concept whereby coins can be moved from one blockchain to another and moved back again. Typical uses include the creation of new altcoins (alternative cryptocurrencies) whereby coins are burnt as a ***proof of an adequate stake***. Burnt or burning the coins in this context means that the coins are sent to an address which is unspendable and this process makes the burnt coins irrecoverable. This mechanism is used to bootstrap a new currency or introduce scarcity which results in increased value of the coin.
+    + This mechanism is also called ***Proof of Burn (PoB)*** and is used as an alternative method for distributed consensus to ***PoW*** and ***Proof of Stake (PoS)***. The aforementioned example for burning coins applies to a one-way pegged sidechain. The second type is called a two-way pegged sidechain, which allows the movement of coins from the main chain to the sidechain and back to the main chain when required.
+    + This process enables the building of smart contracts for the Bitcoin network. Rootstock is one of the leading examples of a sidechain, which enables smart contract development for Bitcoin using this paradigm. It works by allowing a two-way peg for the Bitcoin blockchain, and this results in much faster throughput.
+
  
 #### 5. Consensus Mechanisms
  
